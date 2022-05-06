@@ -1,6 +1,6 @@
 let numElementos;
 let miTabla = "<table><tr>";
-let sumatoria;
+let sumatoria = 0;
 const numerosTabla = [];
 function generarTabla(){
   numElementos = document.getElementById("numElemntos").value;
@@ -19,5 +19,13 @@ function generarTabla(){
   }
   miTabla = miTabla + "</tr></table>"
   let modificar = document.getElementById("modificar");
-  modificar.innerHTML = miTabla + "<button onclick='sumar()'>Sumar</button>";
+  modificar.innerHTML = miTabla + "<button onclick='sumar()'>Sumar</button><p id='suma'></p>";
+}
+function sumar(){
+  for (let i = 0; i< numerosTabla.length; i++) {
+    sumatoria = sumatoria + numerosTabla[i];
+  }
+  let modificar = document.getElementById("suma");
+  modificar.innerHTML = "La sumatoria de la tabla es "+sumatoria;
+
 }
