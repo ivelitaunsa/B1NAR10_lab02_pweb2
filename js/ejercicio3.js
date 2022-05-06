@@ -12,6 +12,9 @@ function countTimer(){
   const totalSeconds = (aqpDte - ahora) / 1000;
 
   const daysT = Math.floor(totalSeconds / 3600 / 24);
+  const hoursT = Math.floor(totalSeconds / 3600) % 24; 
+  const minsT = Math.floor(totalSeconds / 60) % 60;
+  const secondsT = Math.floor(totalSeconds % 60);
 
 }
 
