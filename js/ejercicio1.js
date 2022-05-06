@@ -1,6 +1,6 @@
-function getDay() {
-	let date = new Date();
-	let numDay = date.getDay();
+var numDay;
+var date = new Date();
+function getDay(numDay = date.getDay()) {
 	let day;
 	switch (numDay) {
 		case 0:
