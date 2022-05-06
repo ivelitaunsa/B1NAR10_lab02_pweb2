@@ -24,5 +24,5 @@ function getDay(numDay = date.getDay()) {
   		case 6:
     		day = "Sabado";
 	}
-	return day;
+	document.getElementById("dia").innerHTML = day;
 }
