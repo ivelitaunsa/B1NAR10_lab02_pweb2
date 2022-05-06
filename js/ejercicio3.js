@@ -23,3 +23,5 @@ function countTimer(){
   seconds.innerHTML = secondsT;
 }
 
+countTimer();
+setInterval(countTimer, 1000);
