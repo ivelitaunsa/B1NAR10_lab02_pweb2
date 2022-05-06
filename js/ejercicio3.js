@@ -9,5 +9,7 @@ function countTimer(){
   const aqpDate = new Date(aqp);
   const ahora = new Date();
 
+  const totalSeconds = (aqpDte - ahora) / 1000;
+
 }
 
