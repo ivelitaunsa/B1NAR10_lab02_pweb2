@@ -16,5 +16,10 @@ function countTimer(){
   const minsT = Math.floor(totalSeconds / 60) % 60;
   const secondsT = Math.floor(totalSeconds % 60);
 
+
+  days.innerHTML = daysT;
+  hours.innerHTML = hoursT;
+  mins.innerHTML = minsT;
+  seconds.innerHTML = secondsT;
 }
 
