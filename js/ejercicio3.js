@@ -5,4 +5,7 @@ const seconds = document.getElementById("seconds");
 
 const aqp = '15 Aug 2022';
 
+function countTimer(){
+
+}
 
