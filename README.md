@@ -64,9 +64,10 @@
     </td></tr>
 <tr><td>II. SOLUCIÓN DEL CUESTIONARIO
     <pre>                                                                                          </pre>
+
+    ¿Se puede modificar la soluciòn usando map?¿Còmo?
+    Si, la funciòn map es muy dinàmica, no es necesario hacer una iteraciòn en un conjunto de datos o objetos para poder aagregarlos a un array, por lo que si usamos esta funciòn, la inicializaciòn de longitud de un array no serà necesario
     </td>
-    <tr>¿Se puede modificar la soluciòn usando map?¿Còmo?</tr>
-    <tr>Si, la funciòn map es muy dinàmica, no es necesario hacer una iteraciòn en un conjunto de datos o objetos para poder aagregarlos a un array, por lo que si usamos esta funciòn, la inicializaciòn de longitud de un array no serà necesario</tr>
     </tr>
 <tr><td>III. CONCLUSIONES
     <pre>                                                                                          </pre>
