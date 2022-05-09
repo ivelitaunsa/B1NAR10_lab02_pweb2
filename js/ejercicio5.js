@@ -1,5 +1,5 @@
 let numElementos;
-let miTabla = "<table><tr>";
+let miTabla = "<div><table><tr>";
 let sumatoria = 0;
 const numerosTabla = [];
 function generarTabla(){
@@ -19,13 +19,13 @@ function generarTabla(){
   }
   miTabla = miTabla + "</tr></table>"
   let modificar = document.getElementById("modificar");
-  modificar.innerHTML = miTabla + "<button onclick='sumar()'>Sumar</button><p id='suma'></p>";
+  modificar.innerHTML = miTabla + "<div class='centrado'> <br><p id = 'boton'><button onclick='sumar()'>Sumar</button></p><p id='suma'></p></div>";
 }
 function sumar(){
   for (let i = 0; i< numerosTabla.length; i++) {
     sumatoria = sumatoria + numerosTabla[i];
   }
   let modificar = document.getElementById("suma");
-  modificar.innerHTML = "La sumatoria de la tabla es "+sumatoria;
-
-}
+  modificar.innerHTML = 'La sumatoria de la tabla es '+sumatoria  ;
+  document.getElementById("boton").innerHTML = "<button onclick='location.reload()'>Volver</button>";
+ }

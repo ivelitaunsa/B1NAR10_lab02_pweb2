@@ -1,9 +1,14 @@
 table {
   border: 1px solid black;
   border-collapse: collapse;
-  width:100%;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+
 }
-th, td {
+
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -13,13 +18,26 @@ th, td {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  text-align:center;
+  text-align: center;
 }
-#aqp {
-  text-align:center;
+
+.centrado {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+h1 {
   font-size: 35px;
 }
-#body3 {
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
   margin-top: 15%;
   background-image: url("../assets/images/fondo.jpg");
   background-repeat: no-repeat;
@@ -27,16 +45,10 @@ th, td {
   color: #fff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.numG{
+
+.numG {
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 5px;
   border-bottom: 7px solid white;
 }
-
-
-
-
-
-
-
