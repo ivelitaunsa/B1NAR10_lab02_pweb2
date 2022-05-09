@@ -40,7 +40,7 @@
 <li>Bryan Hancco Condori - bhanccoco@unsa.edu.pe</li>
 <li>Eberth Azurin Zuñiga - eazurin@unsa.edu.pe</li>
 <li>Franco Cárdenas Martines - fcardenasm@unsa.edu.pe</li>
-<li>Italo Velita Aguialr - ivelita@unsa.edu.pe</li>
+<li>Italo Velita Aguilar - ivelita@unsa.edu.pe</li>
 </ul>
 </td>
 <td>NOTA:</td><td colspan="2"></td>
@@ -59,14 +59,26 @@
 <tr><th>Solución y resultados</th></tr>
 </theader>
 <tbody>
-<tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
-    <pre>                                                                                          </pre>
-    </td></tr>
-<tr><td>II. SOLUCIÓN DEL CUESTIONARIO
-    ¿Se puede modificar la soluciòn usando map?¿Còmo?
-    Si, la funciòn map es muy dinàmica, no es necesario hacer una iteraciòn en un conjunto de datos o objetos para poder aagregarlos a un array, por lo que si usamos esta funciòn, la inicializaciòn de longitud de un array no serà necesario
-<tr><td>III. CONCLUSIONES
-    <pre>                                                                                          </pre>
+<tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+    Trabajo Grupal:<br>
+    Cada integrante reforzo sus conocimientos en el lenguaje JavaScript, realizando los ejercicios que le tocaron oportunamente,
+    a su vez se integraron los conocimientos adquiridos con GitHub y cada uno avanzo en sus propias ramas, para finalmente unir
+    todos nuestros avances en el main.<br>
+    Commits de cada integrante:<br><br>
+    <img src="assets/images/commits_lab2.jpg">
+
+  
+<tr><td>II. SOLUCIÓN DEL CUESTIONARIO<br>
+    ¿Cómo se pueden resolver los warnings?<br>
+    Estando atentos a las recomendaciones que nos indica JSLint, tales como usar bucles while, mejorar la identación, entre otros. El resultado final se ve a
+    continuación.<br>
+    <img src="assets/images/cuestionario_1.jpeg">
+    ¿Se puede modificar la soluciòn usando map?¿Cómo?<br>
+    Si, la funciòn map es muy dinàmica, no es necesario hacer una iteraciòn en un conjunto de datos o objetos para poder agregarlos a un array, por lo que si usamos esta funciòn, la inicializaciòn de longitud de un array no será necesario
+<tr><td>III. CONCLUSIONES<br>
+    Con el presente trabajo, cada uno de los integrantes del grupo pudo reforzar sus conocimientos con el
+    lenguaje JavaScript, además adquiriendo las recomendaciones de las buenas prácticas propuestas por JSLint 
+    e investigando acerca de soluciones distintas, por ejemplo con el uso de map
     </td></tr>
 </tbody>
 </table>
