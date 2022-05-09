@@ -60,6 +60,14 @@
 </theader>
 <tbody>
 <tr><td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br>
+    Trabajos individuales (Links de Flipgrid):<br><br>
+    <ul>
+        <li><a href="https://flipgrid.com/a0a18759">Barbara</a></li>
+        <li><a href="https://flipgrid.com/cf11c6f4">Bryan</a></li>
+        <li><a href="https://flipgrid.com/1b670886">Eberth</a></li>
+        <li><a href="https://flipgrid.com/de8ca386">Italo</a></li>
+        <li><a href="https://flipgrid.com/7c92bf67">Franco</a></li>
+    </ul> 
     Trabajo Grupal:<br>
     Cada integrante reforzo sus conocimientos en el lenguaje JavaScript, realizando los ejercicios que le tocaron oportunamente,
     a su vez se integraron los conocimientos adquiridos con GitHub y cada uno avanzo en sus propias ramas, para finalmente unir
