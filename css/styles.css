@@ -13,11 +13,30 @@ th, td {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  text-align:center;
 }
 #aqp {
   text-align:center;
-  color:orange;
+  font-size: 35px;
 }
 #body3 {
-  margin-top: 20%;
+  margin-top: 15%;
+  background-image: url("../assets/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.numG{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  border-bottom: 7px solid white;
+}
+
+
+
+
+
+
+
