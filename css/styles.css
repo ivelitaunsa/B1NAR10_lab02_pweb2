@@ -7,7 +7,17 @@ th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-.container{
+
+.container {
+  width: 50%;
   display: flex;
   justify-content: space-around;
+  margin: 0 auto;
+}
+#aqp {
+  text-align:center;
+  color:orange;
+}
+#body3 {
+  margin-top: 20%;
 }
