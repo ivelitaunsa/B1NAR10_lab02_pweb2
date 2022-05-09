@@ -16,7 +16,11 @@ function returnCodigo() {
     if(parameters != null) {
         //Creando salida
         codigo = `${parameters[3]}${parameters[4]}${parameters[5]}`
-        box.innerHTML = `<h1>El código es: ${codigo}</h1><button onclick='location.reload()'>Volver</button>`   
+        box.innerHTML = 
+        `<h1>El código es: ${codigo}</h1>
+        <div>
+        <button onclick='location.reload()'>Volver</button>
+        </div>`
     }
 
 

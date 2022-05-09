@@ -34,11 +34,11 @@ h1 {
 }
 
 body {
-  margin-top: 15%;
+  margin-top: 10%;
   /*Background Oscurecido*/
   background: rgba(0, 0, 0, 0.8) url("../assets/images/fondo.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-blend-mode: darken;
 
   color: #fff;
@@ -72,6 +72,7 @@ a {
   
   background-color: blueviolet;
 }
+
 
 
 
