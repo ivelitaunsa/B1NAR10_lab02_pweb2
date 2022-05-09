@@ -33,17 +33,17 @@ h1 {
   font-size: 35px;
 }
 
-h1, h2, h3 {
-  text-align: center;
-}
-
 body {
   margin-top: 15%;
-  background-image: url("../assets/images/fondo.jpg");
+  /*Background Oscurecido*/
+  background: rgba(0, 0, 0, 0.8) url("../assets/images/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: darken;
+
   color: #fff;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 }
 
 .numG {
@@ -52,3 +52,29 @@ body {
   margin-bottom: 5px;
   border-bottom: 7px solid white;
 }
+
+.names_list, .index_pages {
+  list-style-type: none;
+  padding: 0%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link_main {
+  display: inline-block;
+  padding: 8px;
+
+  margin: 5px;
+  border: 2px solid white;
+  
+  background-color: blueviolet;
+}
+
+
+
+
+
+
